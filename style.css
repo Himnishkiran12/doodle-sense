@@ -1,0 +1,31 @@
+body {
+    background-image: url(doodle.jpg);
+    color: white;
+    font-size: x-large;
+}
+h1{
+    color: rgb(136, 255, 0);
+    margin-left: 100px;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+border : 5px solid whitesmoke;
+animation-name: qwerty;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes qwerty{
+    from{box-shadow: 1px 1px 30px grey;}
+    to{box-shadow: 1px 1px 30px whitesmoke;}
+}
+#kkk{
+    margin-top: 25%;
+}
+#score{
+float: left;
+}
+#countdown{
+    float: right;
+}
